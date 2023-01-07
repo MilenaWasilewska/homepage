@@ -2,7 +2,7 @@
 
 This repository presents my first website. You can find here some information about me. I made it as a part of my online course - YouCode.
 
-<img src="images/ja.jpg" width="200">
+<img src="images/ja.jpg" width="300">
 
 ## Demo
 
