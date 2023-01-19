@@ -4,7 +4,6 @@
     };
 
     const toggleDisplayTextEducationClick = () => {
-
         const textEducation = document.querySelector(".js-section__paragraph");
 
         textEducation.classList.toggle("show");
@@ -16,15 +15,15 @@
             textEducation.innerText = "";
             button.innerText = "Wyświetl informacje o wykształceniu";
         }
-    }
+    };
 
     const init = () => {
-
         const button = document.querySelector(".js-sectionButton");
+        
         button.addEventListener("click", toggleDisplayTextEducationClick);
 
         welcome();
-    }
+    };
 
     init();
 }
